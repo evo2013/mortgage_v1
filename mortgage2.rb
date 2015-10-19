@@ -42,7 +42,7 @@ loop do
   remaining  = total_payment - one_year
   sleep 1
 
-  # puts "\nHere is your repayment information on a $#{loan}.00 loan with #{apr}% APR\n"
+  puts "\nHere is your repayment information on a $#{loan}.00 loan with #{apr}% APR\n"
   puts "\nMonthly interest rate: #{(mpr*100).round(2)}%\n"
   puts "\nTotal loan duration: #{months} months\n"
   puts "\nYour fixed monthly payment: $#{monthly_payment}\n"
